@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.intro h1 {
+  color: #fff;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8em;
+}
+
+.button {
+  position: fixed;
+  height: 1em;
+  width: 5em;
+  bottom: calc(10% - 16px);
+  left: calc(50% - 80px);
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: red;
+  cursor: pointer 
+}
+
+.button:hover {
+  font-size: 2.5em;
+  bottom: calc(10% - 20px);
+  left: calc(50% - 100px);
+  
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
