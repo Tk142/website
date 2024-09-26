@@ -38,15 +38,20 @@ function App() {
     return () => ctx.revert();
   }, []);
 
+  function removeSkipButton() {
+    let element = document.getElementById("button");
+    if (element != null) {
+      element.remove();
+    }
+  }
+
   function handleButton() {
+    removeSkipButton();
     gsap.globalTimeline.timeScale(999);
   }
 
   setTimeout(() => {
-    let element = document.getElementById("button");
-    if(element != null) {
-      element.remove();
-    }
+    removeSkipButton();
   }, 7000);
 
   return (
