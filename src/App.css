@@ -17,6 +17,7 @@
 
 .intro h1 {
   color: #fff;
+  font-size: 4em;
 }
 
 .main {
@@ -26,8 +27,8 @@
   align-items: center;
 }
 
-h1 {
-  font-size: 8em;
+.main h1 {
+  font-size: 6em;
 }
 
 .button {
@@ -51,7 +52,7 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-  h1 {
+  .main h1 {
     font-size: 2em;
   }
 }

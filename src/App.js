@@ -63,7 +63,7 @@ function App() {
       </div>
 
       <div className="main" id="main-page">
-        <h1>Welcome to Andrius site</h1>
+        <h1>Welcome</h1>
       </div>
 
       <button id="button" className="button" onClick={handleButton}>
